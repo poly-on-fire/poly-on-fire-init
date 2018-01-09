@@ -1,7 +1,7 @@
 # poly-on-fire-init
 Initialization scripts for installing npm dependencies, creating a polymer project, hosted on firebase, tested by web-component-tester, and committed to git repo somewhere.
 
-# Baseline
+# Baseline/Motives
 
 If you haven't already settled on the following, the rest of this is going to be a waste of your time:
 
@@ -9,6 +9,8 @@ If you haven't already settled on the following, the rest of this is going to be
 1. polymer2 as your baseline coding platform
 
 Years of research have led me to believe that the above combination is the most logical and viable approach for any reasonable starter web app. This, despite the fact that I don't know __*even one other person*__ in the Austin TX area where I live and work that comes to this same conclusion, but I've gone over and over and over the facts, and I still keep coming to this same conclusion.
+
+Which brings me to my motive for doing this series. If I can make it easier to start out, maybe I can get a little interest going here in the Austin area.
 
 Either way, bail now if you're not a polymer deploying to firebase kinda guy.
 

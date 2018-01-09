@@ -5,13 +5,17 @@ if
     if [ ! -d $TARGET_DIR ]; then
       mkdir $TARGET_DIR
     fi
-      cp ./*.sh $TARGET_DIR
-      cd $TARGET_DIR
-      source refresh_npm.sh
-      firebase init
-      cd public
-      polymer init
-      echo "Still to do git, readme generation, run wct, other?"
+    cp ./commit.sh $TARGET_DIR
+    cp ./nopass.sh $TARGET_DIR
+    cp ./refresh_npm.sh $TARGET_DIR
+    cp ./.gitignore $TARGET_DIR
+    cd $TARGET_DIR
+    source refresh_npm.sh
+    firebase init
+    cd public
+    polymer init
+    echo "Still to do git, readme generation, run wct, other?"
+    cd ../../poly-on-fire-init
   else
     echo "must include projectname as first variable";
 fi
